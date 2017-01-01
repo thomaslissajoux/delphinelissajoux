@@ -1,0 +1,663 @@
+/* GENERAL
+==============*/
+body {
+  background-color: #8AAAD9;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; }
+p {
+  text-align: justify; }
+section {
+  margin-top: 0px;
+  padding: 80px 0; }
+em {
+  font-style: normal;
+  font-weight:600; }
+h1.section-title {
+  font-size: 40px;
+  margin: 0 0 50px; }
+#questions h4 {
+  text-align: center; }
+section {
+  min-height: 400px; }
+.section-title span {
+  font-size: 120%; }
+.rounded-corners {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius: 10px; }
+.margintop {
+  margin-top: 50px; }
+
+
+/* COLORS
+=========================
+/*BEIGE*/
+#main-nav.scrolled, #services, #bilan, #contact, #main-footer {
+  background: #F5F0DC; }
+.jumbotron .message-box {
+  background: rgba(150,97,168,0.8); }
+#about, #about h1 span, #therapie [class*=icon], #citations, .jumbotron .right-col p, #therapie a, #home a {
+  color: #F5F0DC; }
+.modal-dialog, .modal-content {
+  background-color: #F5F0DC; }
+
+/*VIOLET*/
+body, #about p em, .details p, #therapie a:hover, #contact .section-title, a, #contact, .close, #services {
+  color: #9661A8; }
+
+/*BLEU*/
+.jumbotron, #about, #therapie, #citations, .contact-info {
+  background-color: #8AAAD9; }
+#contact span a, h4, .section-title, .section-title [class*=icon], .icon-google-plus, a:hover, #contact-form .form-group [class*="icon-"], a.navbar-brand:hover, .modal-content a #services a:hover {
+  color: #8AAAD9; }
+a.blue, p a.blue, span a.blue, ul li a.blue {
+  /*color: #8AAAD9;*/
+  color: #dae0f6; }
+
+
+/* NAV
+========================= */
+#site-nav {
+  margin-top: 22px;
+  margin-right: 10px; }
+#main-nav {
+  min-height: 92px;
+  background: rgba(245, 240, 220, 0.5); }
+#main-nav.scrolled {
+  border-bottom: 2px solid #9661A8; }
+#main-nav.scrolled .container {
+  padding: 5px 20px;
+  margin-left: -10px; }
+#main-nav .nav a, #main-nav .nav a:active, #main-nav .nav a:hover {
+  padding: 0px 3px;
+  font-size: 16px;
+  text-align: center;
+  color: #8AAAD9;
+  line-height: 16px; }
+#brandName {
+  float:left;
+  position:relative;
+  display:block;
+  padding: 5px;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: right; }
+#brandTitle {
+  float:right;
+  position:relative;
+  display:block;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 10px; }
+#brandTitle ul {
+  list-style-type: none;
+  margin-left: -55px; }
+
+      /* RESPONSIVE */
+      @media(max-width:1200px){
+        #main-nav .nav a, #main-nav .nav a:active, #main-nav .nav a:hover {
+          font-size:14px; }
+        #main-nav li {
+          margin: 0 2px; }
+        .navbar-brand, .navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
+          font-size: 20px;
+          line-height: 20px; }
+        .navbar-brand span {
+          font-size: 15px; } }
+      @media(max-width:321px){
+        #main-nav .nav a, #main-nav .nav a:active, #main-nav .nav a:hover {
+          text-align: right;
+          font-size:13px;
+          line-height:13px; }
+        #main-nav li {
+          margin: 0 3px; }
+        /*.navbar-brand, .navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
+          font-size: 12px;
+          line-height: 14px; }
+        .navbar-brand span {
+          font-size: 10px; }
+        #brandName {
+          font-size: 20px;
+          line-height: 20px; }
+        #brandTitle {
+          font-size: 10px;
+          line-height: 14px; }*/
+        #site-nav {
+          width: 100%; } }
+      @media(min-width:768px){
+        .navbar-brand>img{
+          width: 103px; }
+        #mainHeader .pull-right {
+          float: right !important; } }
+      @media(min-width:992px){
+        .navbar-brand>img{
+          width:auto; } }
+
+
+/* HERO
+=========================*/
+.jumbotron {
+  margin-top: 92px;
+  min-height: 630px;
+  margin-bottom: 0;
+  background:url(../assets/face2.jpg);  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.message-box {
+  margin-top: 20px; }
+.jumbotron .message-box {
+  width: 95%;
+  position: absolute;
+  bottom: 0;
+  padding: 0; }
+.jumbotron .left-col p {
+  font-size:18px;
+  padding: 10px;
+  line-height:20px; 
+  font-weight:300;}
+.jumbotron .left-col p span{
+  font-size: 24px;
+  text-align: left;
+  font-weight:700; }
+.jumbotron .right-col {  
+  padding-top: -0px; }
+.jumbotron .right-col p {
+  margin-left: 0px;
+  text-align: left;
+  font-size:24px;
+  line-height:30px;
+  font-weight:900; }
+
+
+/* ABOUT
+=========================*/
+.section-title span {
+  font-weight:900; }
+/*#about h1 span {
+  font-weight:600; }*/
+#about p {
+  font-weight:400;
+  font-size: 18px; }
+#about p span {
+  font-weight:600; }
+.img-center {
+  margin: 0 auto; }
+#signature {
+  vertical-align: top; }
+#about a:hover {
+  text-decoration: none; }
+
+
+/* SERVICES
+=========================*/
+
+
+
+/* CITATIONS
+=========================*/
+.citations, #citations .flexslider {
+  color: #8AAAD9;
+  background-color: #9661A8; }
+.citations {
+  margin: 0 0 50px 0;
+  height: 150px;
+  max-height: 150px;
+  width: 100%;
+  position: relative; }
+.citations .flexslider {
+  border: none; }
+.citations-slider {
+  width: 100%;
+  padding: 0 10%;
+  color: #F5F0DC;
+  height: 150px;
+  position: absolute;
+  top: 25%; }
+.citations-slider p {
+  font-weight: 300;
+  font-style: italic;
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 24px; }
+.open-quote, .close-quote {
+  position: absolute;
+  min-width: 20px;
+  color: #F5F0DC; }
+.open-quote {
+  top: 3px;
+  left: 3px;
+  text-align: left; }
+.close-quote {
+  bottom: 3px;
+  right: 3px;
+  text-align: right; }
+
+
+/* CONTACT
+================================================== */
+#contact-form .form-control {
+  font-size: 18px;
+  background: rgba(218, 224, 246, 0.9); }
+#contact-form textarea.form-control {
+  font-size: 18px; }
+/*.contact-info {
+  background: rgba(245, 240, 220, 0.9);
+  background: rgba(218, 224, 246, 1);
+}*/
+#contact .icon-google-plus {
+  font-size: 50px;
+  vertical-align: middle;
+  padding-left: 30px; }
+.bureau {
+  padding: 10px;
+/*  margin: auto;
+  text-align: center;*/
+}
+#contact-form .error-message {
+  color: #F5F0DC; }
+
+
+#contact p a.blue {
+  color: rgba(218, 224, 246, 0.9);
+}
+
+#contact-first {
+  text-align: center;
+}
+
+#contact-url {
+  display:none;
+}
+
+/* MAP
+================================================== */
+.map {
+  width: 100%;
+  height: 400px; }
+
+
+/* FOOTER
+================================================== */
+#main-footer {
+  padding-top: 30px; }
+#main-footer ul.footer-nav li{
+  padding:0 5px; }
+#main-footer {
+  border-top: 2px solid #9661A8; }
+
+
+/* MODAL
+================================================== */
+.modal-dialog {
+  width: 70%;
+  margin: auto;
+  margin-top: 92px;
+  padding: 0;}
+.modal-body h1 {
+  margin:30px 0 24px; }
+.close {
+  opacity: 1; }
+
+
+/* MEDIA QUERIES
+================================================== */
+
+      @media(max-width: 1240px) {
+        header.jumbotron .message-box {
+          float: none;
+          margin: 0 auto;
+          width: 90%; }
+        header.jumbotron .left-col p {
+          font-size:16px; }
+        header.jumbotron .left-col p span{
+          font-size: 20px; }
+        header.jumbotron .right-col p {
+          font-size: 22px; } }
+      @media (max-width: 1024px) and (min-width: 801px) {
+        header.jumbotron {
+          min-height: 565px;
+          background:url("../assets/face2-1024.jpg");  }
+        header.jumbotron .message-box {
+          bottom: 192px; } }
+      @media (max-width: 800px) and (min-width: 769px) {
+        #main-nav {
+          min-height: 82px; }
+        #brandName img {
+          width: 215px;
+          height: 60px; }
+        #brandTitle {
+          font-size: 18px;
+          line-height: 23px;
+          margin-left: 0px; }
+        #brandTitle ul {
+          margin-left: -40px; }
+        header.jumbotron {
+          min-height: 441px;
+          margin-top: 82px;
+          background:url("../assets/face2-800.jpg"); }
+        .jumbotron .right-col {
+          margin-top: -16px; }
+        .jumbotron .right-col p {
+          margin-left: 0px;
+          text-align: left;
+          font-size:20px;
+          line-height:24px; }
+        header.jumbotron .message-box {
+          position: relative;
+          margin-top: 250px; }
+        h2 {
+          text-align: center; }
+        #about p {
+          font-size: 16px; } }
+      @media (max-width: 767px) and (min-width: 601px) and (orientation: portrait) {
+        header.jumbotron {
+          min-height: 441px;
+          height: 441px;
+          background:url("../assets/face2-800.jpg"); }
+        .jumbotron .right-col {
+          margin-top: -16px; }
+        header.jumbotron .message-box {
+          position: relative;
+          margin-top: 260px; }
+        #about .img-circle {
+          width: 250px;
+          height: 250px;
+          margin-bottom: 40px; }
+        h2 {
+          text-align: center; }
+        .contact-info {
+          margin-left: 15px;
+          margin-right: 15px; }
+        #main-footer p {
+          text-align: center; } }
+      @media (max-width: 600px) and (min-width: 481px)  and (orientation: portrait) {
+        header.jumbotron {
+          min-height: 331px;
+          height: 331px;
+          background:url("../assets/face2-600.jpg"); }
+        .jumbotron .right-col {
+          margin-top: -16px; }
+        header.jumbotron .message-box {
+          position: relative;
+          margin-top: 193px; }
+        #about .img-circle {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 40px; }
+        #services .margintop {
+          margin-top: 20px; }
+        h2 {
+          text-align: center; }
+        .citations-slider ul.slides li p {
+          line-height: 24px;
+          font-size: 18px; }
+        .close-quote {
+          margin-left: -30px; }
+        .contact-info {
+          margin-left: 15px;
+          margin-right: 15px; }
+        #main-footer p {
+          text-align: center; } }
+      @media (max-width: 640px) and (max-height: 360px) and (orientation: landscape) {
+        #main-nav {
+          min-height: 82px; }
+        #brandName img {
+          width: 215px;
+          height: 60px; }
+        #brandTitle {
+          font-size: 16px;
+          line-height: 23px; }
+        header.jumbotron {
+          min-height: 353px;
+          height: 353px;
+          margin-top: 77px;
+          background:url("../assets/face2-640.jpg"); }
+        .jumbotron .right-col {
+          margin-top: -16px; }
+        h1.section-title {
+          margin: 0 0 20px; 
+          font-size: 30px;
+          line-height: 36px; }
+        h2 {
+          text-align: center; }
+        #about .img-circle {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 40px; }
+        p {
+          font-size: 16px; }
+        p#aboutText {
+          font-size: 16px;
+          line-height: 30px;
+          margin-bottom: 20px; }
+        h4 a {
+          font-size: 16px; }
+        .btn-theme {
+          font-size: 20px; }
+        #about, #services, #therapie, #bilan, #contact {
+          padding: 40px 0;
+          min-height: 0; }
+        .services .icon {
+          width: 100px;
+          height: 100px;
+          font-size: 41px;
+          line-height: 78px; }
+        #services .margintop {
+          margin-top: 20px; }
+        .open-quote, .close-quote {
+          font-size: 10px; }
+        .close-quote {
+          margin-left: -20px; }
+        .citations-slider {
+          width: 93%;
+          padding: 0 5%;
+          top: 31%; }
+        .citations-slider ul.slides li p {
+          line-height: 16px;
+          font-size: 16px; }
+        #contact-form .form-control, #contact-form textarea.form-control {
+          font-size: 16px; }
+        #contact .contact-info p, #contact .contact-info address {
+          font-size: 16px;
+          line-height: 22px; }
+        .rounded-corners {
+          padding-top: 1px;
+          padding-bottom: 1px; }
+        #main-footer p {
+          text-align: center; }
+        #main-footer ul.footer-nav {
+          margin-bottom: 0px; }
+        #main-footer ul.footer-nav li a {
+          font-size: 11px; } 
+      }
+      @media (max-width: 480px) {
+        #main-nav {
+          min-height: 82px; }
+        #brandName img {
+          width: 215px;
+          height: 60px; }
+        #brandTitle {
+          font-size: 16px;
+          line-height: 23px; }
+        header.jumbotron {
+          min-height: 265px;
+          height: 265px;
+          margin-top: 77px;
+          background:url("../assets/face2-480.jpg"); }
+        .jumbotron .right-col {
+          margin-top: -16px; }
+        h1.section-title {
+          margin: 0 0 20px; 
+          font-size: 30px;
+          line-height: 36px; }
+        h2 {
+          text-align: center; }
+        #about .img-circle {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 40px; }
+        p {
+          font-size: 16px; }
+        p#aboutText {
+          font-size: 16px;
+          line-height: 30px;
+          margin-bottom: 20px; }
+        h4 a {
+          font-size: 16px; }
+        .btn-theme {
+          font-size: 20px; }
+        #about, #services, #therapie, #bilan, #contact {
+          padding: 40px 0;
+          min-height: 0; }
+        .services .icon {
+          width: 100px;
+          height: 100px;
+          font-size: 41px;
+          line-height: 78px; }
+        #services .margintop {
+          margin-top: 20px; }
+        .open-quote, .close-quote {
+          font-size: 10px; }
+        .close-quote {
+          margin-left: -20px; }
+        .citations-slider {
+          width: 93%;
+          padding: 0 5%;
+          top: 31%; }
+        .citations-slider ul.slides li p {
+          line-height: 16px;
+          font-size: 16px; }
+        #contact-form .form-control, #contact-form textarea.form-control {
+          font-size: 16px; }
+        #contact .contact-info p, #contact .contact-info address {
+          font-size: 16px;
+          line-height: 22px; }
+        .rounded-corners {
+          padding-top: 1px;
+          padding-bottom: 1px; }
+        #main-footer p {
+          text-align: center; }
+        #main-footer ul.footer-nav {
+          margin-bottom: 0px; }
+        #main-footer ul.footer-nav li a {
+          font-size: 11px; } }
+      @media (max-width: 480px) {
+        header.jumbotron {
+          min-height: 199px;
+          height: 199px;
+          background:url("../assets/face2-360.jpg"); } }
+      @media (max-width: 375px) {
+        .navbar-brand, .navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
+          padding: 0 2px; }
+        #main-nav {
+          min-height: 95px; }
+        #brandTitle {
+          margin-left: 0px; }
+        #brandTitle ul, #site-nav ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          text-align: center; }
+        #brandTitle ul li {
+          display: inline;
+          font-size:12px;  }
+        header.jumbotron {
+          padding: 30px 0;
+          margin-top: 95px;
+          min-height: 177px;
+          height: 177px;
+          background:url("../assets/face2-320.jpg");
+          margin-bottom: 80px; }
+        header.jumbotron .message-box {
+          margin: 0 auto;
+          width: 100%;
+          position: relative;
+          margin-top: 147px;
+          width: 100%; }
+        header.jumbotron .left-col p {
+          font-size:13px; }
+        header.jumbotron .left-col p span{
+          font-size: 14px; }
+        header.jumbotron .right-col p {
+          font-size: 16px;
+          font-size:16px;
+          line-height:20px; }
+        #brandName img {
+          width: 215px;
+          height: 60px; }
+        #about {
+          padding: 40px 0; }
+        h1.section-title {
+          font-size: 23px;
+          line-height: 30px; }
+        h2 {
+          margin-bottom: 10px;
+          font-size: 20px; }
+        p, h4{
+          font-size: 13px; }
+        p#aboutText {
+          font-size: 13px;
+          line-height: 26px; }
+        #contact .section-title {
+          margin-bottom: 20px; }
+        .citations {
+          height: auto;
+          min-height: 105px; }
+        .open-quote, .close-quote {
+          font-size: 6px; }
+        .close-quote {
+          height: 16px; }
+        .citations-slider {
+          top: 21%;
+          width: 90%;
+          padding: 0 5%; }
+        .citations-slider ul.slides li p {
+          line-height: 15px;
+          font-size: 13px; }
+        #contact-form .form-control, #contact-form textarea.form-control {
+          font-size: 13px; }
+        #contact .contact-info p, #contact .contact-info address {
+          font-size: 13px;
+          line-height: 15px; }
+        .contact-info {
+          margin-left: 15px;
+          margin-right: 15px; }
+        .btn-theme {
+          font-size: 12px; }
+        .modal-dialog {
+          width: 90%; }
+        #main-footer p {
+          text-align: center; } }
+
+      @media(width: 768px) and (height: 1024px) {
+        header.jumbotron .message-box {
+          margin-top: 450px;
+          position: relative; } }
+
+      @media(width: 1280px) and (height: 800px) {
+        header.jumbotron .message-box {
+          margin-top: 500px;
+          position: relative; } }
+
+      @media(width: 320px) and (height: 534px) {
+        header.jumbotron .message-box {
+          margin-top: 160px;
+          position: relative; } }
+      @media(width: 480px) and (height: 800px) {
+        header.jumbotron {
+          min-height: 353px;
+          height: 353px;
+          background: url("../assets/face2-640.jpg"); }
+        header.jumbotron .message-box {
+          margin-top: 210px;
+          width: 100%;
+          position: relative; }
+        header.jumbotron .left-col p {
+          font-size: 13px; }
